@@ -1,6 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'GBMotion'
   s.version      = '0.1.0'
+  s.platform     = :ios, '5.0'
   s.summary      = 'Library for helping with motion detection, such as orientation, etc.'
   s.author       = 'Luka Mirosevic'
   s.homepage	 = 'https://github.com/lmirosevic/GBMotion'
