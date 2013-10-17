@@ -8,7 +8,7 @@ Pod::Spec.new do |spec|
   spec.license      = 'BSD'
   spec.requires_arc = true
 
-  s.public_header_files = 'DTFoundation.h'
+  spec.public_header_files = 'DTFoundation.h'
 
   spec.subspec 'Core' do |ss|
     ss.ios.deployment_target = '4.3'
