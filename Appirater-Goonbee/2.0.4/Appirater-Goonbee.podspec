@@ -1,11 +1,11 @@
 Pod::Spec.new do |s|
   s.name                  = 'Appirater-Goonbee'
-  s.version               = '2.0.3'
+  s.version               = '2.0.4'
   s.ios.deployment_target = '5.0'
-  s.summary               = "A utility that reminds your iPhone app's users to review the app."
-  s.homepage              = 'http://arashpayan.com/blog/2009/09/07/presenting-appirater/'
-  s.author                = { 'Arash Payan' => 'arash.payan@gmail.com' }
-  s.source                = { :git => 'https://github.com/arashpayan/appirater.git', :tag => '2.0.3' }
+  s.summary               = "Fork of Arash Payan's Appirater"
+  s.homepage              = 'https://github.com/lmirosevic/appirater'
+  s.author                = { 'Luka Mirosevic' => 'luka@goonbee.com' }
+  s.source                = { :git => 'https://github.com/lmirosevic/appirater.git', :tag => '2.0.4' }
   s.source_files          = '*.{h,m}'
   s.resource_bundles      = { 'Appirater' => ['*.lproj'] }
   s.requires_arc          = true
