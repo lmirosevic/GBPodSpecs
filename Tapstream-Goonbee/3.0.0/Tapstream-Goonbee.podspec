@@ -1,7 +1,7 @@
 Pod::Spec.new do |s|
   s.name         = 'Tapstream-Goonbee'
   s.version      = '3.0.0'
-  s.summary      = 'Fork of Tapstream's library.'
+  s.summary      = 'Fork of Tapstream\'s library.'
   s.homepage     = 'https://github.com/lmirosevic/tapstream-sdk'
   s.license      = 'MIT'
   s.author       = { 'Luka Mirosevic' => 'luka@goonbee.com' }
