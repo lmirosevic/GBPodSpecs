@@ -9,4 +9,5 @@ Pod::Spec.new do |s|
   s.source   = { :http => "http://archive.apache.org/dist/thrift/#{s.version.to_s}/thrift-#{s.version.to_s}.tar.gz" }
   s.source_files = 'lib/cocoa/src/**/*.{h,m}'
   s.requires_arc = true
+  s.compiler_flags = '-fobjc-arc-exceptions'
 end
