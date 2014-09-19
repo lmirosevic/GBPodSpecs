@@ -18,7 +18,7 @@ Pod::Spec.new do |s|
   s.frameworks = 'SystemConfiguration', 'StoreKit', 'AdSupport', 'MediaPlayer'
   
   s.vendored_frameworks = 'RevMobAds.framework'
-  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/RevMob"' }
+  s.xcconfig = { 'FRAMEWORK_SEARCH_PATHS' => '"$(PODS_ROOT)/RevMob-Goonbee"' }
   s.preserve_paths = 'RevMobAds.framework'  
 
 end
